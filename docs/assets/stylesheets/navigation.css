@@ -23,6 +23,16 @@
     box-shadow: var(--md-shadow-z2);
   }
 
+  .ai-tab-menu--wide {
+    min-width: 30rem;
+    column-count: 2;
+    column-gap: 0.6rem;
+  }
+
+  .ai-tab-menu li {
+    break-inside: avoid;
+  }
+
   .md-tabs__item:hover .ai-tab-menu,
   .md-tabs__item:focus-within .ai-tab-menu {
     display: block;

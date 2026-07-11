@@ -33,6 +33,7 @@ function buildTabMenus() {
 
     const menu = document.createElement("ul");
     menu.className = "ai-tab-menu";
+    if (links.length > 7) menu.classList.add("ai-tab-menu--wide");
     menu.setAttribute("aria-label", tabLink.textContent.trim());
 
     links.forEach((link) => {

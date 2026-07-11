@@ -34,7 +34,7 @@ plugins:
           name: 한국어
           build: true
           nav_translations:
-            Home: 홈
+            Start: 시작
             Foundations: 기초
             Large Language Models: 대규모 언어 모델
             Tokenization: 토큰화
@@ -42,7 +42,7 @@ plugins:
             Transformers: Transformer
             Embeddings: 임베딩
             Prompting: 프롬프팅
-            Systems: 시스템 구축
+            Build: 구축
             AI Agents: AI Agent
             Workflows and Agents: Workflow와 Agent
             Agent Memory: Agent Memory
@@ -53,10 +53,11 @@ plugins:
             Pydantic: Pydantic
             LangChain and LangGraph: LangChain과 LangGraph
             Vector Databases: 벡터 데이터베이스
-            Reliability: 신뢰성
+            Evaluate: 평가
             Grounding and Hallucination: 근거성과 환각
             LLM Evaluation: LLM 평가
             RAG Evaluation: RAG 평가
+            Reference: 참고
             Glossary: 용어집
             References: 참고문헌
             About: 소개
@@ -75,7 +76,7 @@ extra_css:
 extra_javascript:
   - assets/javascripts/navigation.js
 nav:
-  - Home: index.md
+  - Start: index.md
   - Foundations:
       - Large Language Models: learn/large-language-models.md
       - Tokenization: learn/tokenization.md
@@ -83,7 +84,7 @@ nav:
       - Context Windows: learn/context-windows.md
       - Embeddings: learn/embeddings.md
       - Prompting: learn/prompting.md
-  - Systems:
+  - Build:
       - AI Agents: build/ai-agents.md
       - Workflows and Agents: build/workflows-and-agents.md
       - Agent Memory: build/agent-memory.md
@@ -94,10 +95,11 @@ nav:
       - Pydantic: tools/pydantic.md
       - LangChain and LangGraph: tools/langchain-langgraph.md
       - Vector Databases: tools/vector-databases.md
-  - Reliability:
+  - Evaluate:
       - Grounding and Hallucination: evaluate/grounding-and-hallucination.md
       - LLM Evaluation: evaluate/llm-evaluation.md
       - RAG Evaluation: evaluate/rag-evaluation.md
-  - Glossary: glossary.md
-  - References: references.md
-  - About: about.md
+  - Reference:
+      - Glossary: glossary.md
+      - References: references.md
+      - About: about.md

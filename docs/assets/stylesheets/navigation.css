@@ -1,4 +1,13 @@
 @media screen and (min-width: 76.25em) {
+  .md-tabs,
+  .md-tabs__list {
+    overflow: visible;
+  }
+
+  .md-tabs__list {
+    contain: none;
+  }
+
   .md-sidebar--primary {
     display: none;
   }

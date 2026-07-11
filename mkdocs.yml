@@ -8,10 +8,10 @@ theme:
   name: material
   language: en
   features:
-    - navigation.tabs
-    - navigation.sections
     - navigation.indexes
+    - navigation.prune
     - navigation.top
+    - toc.integrate
     - content.code.copy
     - search.suggest
     - search.highlight
@@ -34,15 +34,15 @@ plugins:
           name: 한국어
           build: true
           nav_translations:
-            Learn: 학습
-            Start Here: 시작하기
+            Home: 홈
+            Foundations: 기초
             Large Language Models: 대규모 언어 모델
             Tokenization: 토큰화
             Context Windows: 컨텍스트 윈도
             Transformers: Transformer
             Embeddings: 임베딩
             Prompting: 프롬프팅
-            Build: 구축
+            Systems: 시스템 구축
             AI Agents: AI Agent
             Workflows and Agents: Workflow와 Agent
             Agent Memory: Agent Memory
@@ -50,11 +50,10 @@ plugins:
             Structured Output: 구조화 출력
             Retrieval-Augmented Generation: 검색 증강 생성
             Reranking: 재순위화
-            Tools: 도구
             Pydantic: Pydantic
             LangChain and LangGraph: LangChain과 LangGraph
             Vector Databases: 벡터 데이터베이스
-            Evaluate: 평가
+            Reliability: 신뢰성
             Grounding and Hallucination: 근거성과 환각
             LLM Evaluation: LLM 평가
             RAG Evaluation: RAG 평가
@@ -72,15 +71,15 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
 nav:
-  - Learn:
-      - Start Here: index.md
+  - Home: index.md
+  - Foundations:
       - Large Language Models: learn/large-language-models.md
       - Tokenization: learn/tokenization.md
-      - Context Windows: learn/context-windows.md
       - Transformers: learn/transformers.md
+      - Context Windows: learn/context-windows.md
       - Embeddings: learn/embeddings.md
       - Prompting: learn/prompting.md
-  - Build:
+  - Systems:
       - AI Agents: build/ai-agents.md
       - Workflows and Agents: build/workflows-and-agents.md
       - Agent Memory: build/agent-memory.md
@@ -88,11 +87,10 @@ nav:
       - Structured Output: build/structured-output.md
       - Retrieval-Augmented Generation: build/retrieval-augmented-generation.md
       - Reranking: build/reranking.md
-  - Tools:
       - Pydantic: tools/pydantic.md
       - LangChain and LangGraph: tools/langchain-langgraph.md
       - Vector Databases: tools/vector-databases.md
-  - Evaluate:
+  - Reliability:
       - Grounding and Hallucination: evaluate/grounding-and-hallucination.md
       - LLM Evaluation: evaluate/llm-evaluation.md
       - RAG Evaluation: evaluate/rag-evaluation.md

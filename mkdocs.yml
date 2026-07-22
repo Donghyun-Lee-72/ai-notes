@@ -133,6 +133,7 @@ nav:
           - RAG Evaluation: evaluate/rag-evaluation.md
       - AI4Science:
           - Overview: ai4science/index.md
+          - LLM Agents for Scientific Discovery: ai4science/llm-agents-for-scientific-discovery.md
           - Self-Driving Laboratories: ai4science/self-driving-laboratories.md
   - Materials Science and Chemistry:
       - materials-science/index.md

@@ -13,6 +13,14 @@ systems need traceable sources, explicit units and conditions, uncertainty,
 reproducible tools, and evaluation against scientific observations or accepted
 ground truth.
 
+## Scientific agents
+
+[LLM Agents for Scientific Discovery](llm-agents-for-scientific-discovery.md)
+distinguishes adaptive scientific decision making from fixed computational
+automation. It explains how retrieval, scientific reasoning, tools,
+verification, memory, and feedback can be combined while keeping evidence,
+uncertainty, and human approval boundaries explicit.
+
 ## Automated experimentation
 
 [Self-Driving Laboratories](self-driving-laboratories.md) explains how
@@ -28,6 +36,7 @@ than being duplicated here.
 ## Related notes
 
 - [AI](../ai/index.md)
+- [LLM Agents for Scientific Discovery](llm-agents-for-scientific-discovery.md)
 - [Self-Driving Laboratories](self-driving-laboratories.md)
 - [Retrieval-Augmented Generation](../build/retrieval-augmented-generation.md)
 - [AI Agents](../build/ai-agents.md)
